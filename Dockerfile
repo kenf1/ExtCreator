@@ -1,5 +1,5 @@
 #base img + specify environ for app to run in
-FROM node:slim
+FROM node:lts-slim
 ENV NODE_ENV=production
 
 #install
